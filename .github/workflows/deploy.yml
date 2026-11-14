@@ -25,11 +25,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-        env:
-          # Served from a project URL until the custom domain is connected.
-          # When littlepineplay.com is ready, delete both lines and restore public/CNAME.
-          BASE_PATH: /little-pine-play/
-          SITE_URL: https://glkinc.github.io/little-pine-play
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

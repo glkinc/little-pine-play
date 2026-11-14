@@ -78,11 +78,10 @@ Fonts: Fredoka (headings) and Nunito (body), self-hosted.
 ## Deploying (GitHub Pages)
 
 Pushing to `main` builds and publishes the site via `.github/workflows/deploy.yml`.
-For now it lives at https://glkinc.github.io/little-pine-play/ (repo Settings → Pages → Source: **GitHub Actions**).
+The site is served from https://littlepineplay.com (repo Settings → Pages → Source: **GitHub Actions**, custom domain set, **Enforce HTTPS** on).
 
-### Switching to littlepineplay.com later
-1. In `.github/workflows/deploy.yml`, delete the `BASE_PATH` and `SITE_URL` lines (and their comment).
-2. Create `public/CNAME` containing `littlepineplay.com`.
-3. Update `"url"` in `src/content/site.json` if the domain changes.
-4. At your registrar, add four `A` records for `@` (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a `CNAME` for `www` pointing to `glkinc.github.io`.
-5. Repo Settings → Pages → set the custom domain and tick **Enforce HTTPS**.
+### DNS (at the domain registrar)
+- Four `A` records for `@`: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
+- A `CNAME` for `www` pointing to `glkinc.github.io`
+- Remove any parking-page records for `@` and `www`.
+- To preview under a subpath instead, build with `BASE_PATH=/little-pine-play/ SITE_URL=https://glkinc.github.io/little-pine-play`.
