@@ -45,9 +45,19 @@ export function initModals() {
       event.preventDefault();
       closeDialog(dialog);
     });
-    // Click on the backdrop (the dialog element itself) closes.
+    // A click anywhere outside the panel (the backdrop) closes. Press and release must both
+    // be outside, so dragging to select text inside the panel never closes it by accident.
+    let pressedOutside = false;
+    const outsidePanel = (event) => {
+      const box = dialog.querySelector('[data-panel]').getBoundingClientRect();
+      return event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom;
+    };
+    dialog.addEventListener('pointerdown', (event) => {
+      pressedOutside = outsidePanel(event);
+    });
     dialog.addEventListener('click', (event) => {
-      if (event.target === dialog || event.target.closest('[data-dialog-close]')) closeDialog(dialog);
+      if (event.target.closest('[data-dialog-close]') || (pressedOutside && outsidePanel(event))) closeDialog(dialog);
+      pressedOutside = false;
     });
   }
 

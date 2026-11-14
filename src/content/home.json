@@ -22,7 +22,7 @@
       {
         "icon": "gift",
         "title": "Party favour kits",
-        "text": "Skip the plastic loot bag. Themed mini kits that guests will actually play with, matched to your party."
+        "text": "Skip the plastic loot bag. Paint kits ($7 each) and themed mini kits that guests will actually play with, matched to your party."
       },
       {
         "icon": "boxes",
@@ -71,8 +71,8 @@
       { "icon": "mail", "text": "Contact us for directions and current hours" }
     ],
     "cta": "Ask about visiting",
-    "image": "brand/cubby-poster.webp",
-    "imageAlt": "Illustrated sign for the Little Pine Cubby, a game stand for sensory play and magic"
+    "image": "brand/cubby-poster.jpg",
+    "imageAlt": "Illustrated Little Pine Cubby farm stand sign with pine trees, bunting, sensory jars and craft bags"
   },
   "faq": {
     "eyebrow": "Good to know",

@@ -219,6 +219,34 @@
     font-weight: 700;
   }
 
+  /* Mobile: one scrollable row that bleeds to the screen edges. sm+: wrapped and centred. */
+  .chip-row {
+    display: flex;
+    gap: 0.625rem;
+    margin-inline: -1rem;
+    padding: 0.25rem 1rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-padding-inline: 1rem;
+    scrollbar-width: none;
+  }
+  .chip-row::-webkit-scrollbar {
+    display: none;
+  }
+  .chip-row .chip {
+    flex: none;
+    white-space: nowrap;
+  }
+  @media (min-width: 640px) {
+    .chip-row {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-inline: 0;
+      padding: 0;
+      overflow: visible;
+    }
+  }
+
   .chip {
     min-height: 2.75rem;
     padding: 0.4rem 1.15rem;

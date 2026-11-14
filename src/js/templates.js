@@ -217,7 +217,7 @@ function productsSection({ site, home, products, img }) {
       ${sectionHead(p, 'products-title')}
       ${
         categories.length > 1
-          ? `<div class="mt-8 flex flex-wrap justify-center gap-2.5" role="group" aria-label="${esc(site.ui.filterLabel)}" data-reveal>
+          ? `<div class="chip-row mt-8" role="group" aria-label="${esc(site.ui.filterLabel)}" data-reveal>
         <button type="button" class="chip" data-filter="all" aria-pressed="true">${esc(site.ui.filterAll)}</button>
         ${categories.map((c) => `<button type="button" class="chip" data-filter="${esc(slug(c))}" aria-pressed="false">${esc(c)}</button>`).join('')}
       </div>`
