@@ -1,0 +1,170 @@
+/* ==========================================================================
+   Little Pine Play design tokens
+   Three layers. Each layer only references the one above it.
+     1. Primitive  (--p-*)  raw values. Never used directly in components.
+     2. Semantic   (--s-*)  purpose. Re-theme the site here.
+     3. Component  (--c-*)  per-component decisions.
+   Spacing is not tokenised here: use Tailwind's spacing scale (p-4, gap-6…).
+   ========================================================================== */
+
+:root {
+  /* ---------- 1. Primitive ---------- */
+  --p-pine-50: #f3f6f0;
+  --p-pine-100: #e4ebdd;
+  --p-pine-200: #c9d6bd;
+  --p-pine-300: #a9bd98;
+  --p-pine-400: #8aa377;
+  --p-pine-500: #6d8a5c;
+  --p-pine-600: #56704a;
+  --p-pine-700: #43593b;
+  --p-pine-800: #364731;
+  --p-pine-900: #2a3627;
+
+  --p-plum-100: #f1e8f3;
+  --p-plum-300: #c9afcf;
+  --p-plum-500: #a184aa;
+  --p-plum-700: #6f5278;
+
+  --p-peach-100: #fde9e1;
+  --p-peach-300: #f5b9a5;
+  --p-peach-500: #ec9a82;
+  --p-peach-700: #a8533d;
+
+  --p-mustard-100: #fbf0d4;
+  --p-mustard-300: #f1cf7e;
+  --p-mustard-500: #e3ad45;
+  --p-mustard-700: #8a5f10;
+
+  --p-cream-50: #fffdf8;
+  --p-cream-100: #fbf6ec;
+  --p-cream-200: #f4ecdc;
+  --p-cream-300: #e9dec8;
+
+  --p-stone-500: #6e695f;
+  --p-stone-700: #4d4a43;
+  --p-stone-900: #2b2a26;
+
+  --p-white: #ffffff;
+
+  --p-radius-sm: 0.5rem;
+  --p-radius-md: 1rem;
+  --p-radius-lg: 1.5rem;
+  --p-radius-xl: 2.25rem;
+  --p-radius-full: 999px;
+
+  --p-shadow-sm: 0 1px 2px rgb(42 54 39 / 0.06), 0 2px 8px rgb(42 54 39 / 0.05);
+  --p-shadow-md: 0 4px 10px rgb(42 54 39 / 0.07), 0 12px 28px rgb(42 54 39 / 0.09);
+  --p-shadow-lg: 0 10px 20px rgb(42 54 39 / 0.1), 0 28px 60px rgb(42 54 39 / 0.16);
+
+  --p-font-display: 'Fredoka', ui-rounded, 'Trebuchet MS', system-ui, sans-serif;
+  --p-font-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ---------- 2. Semantic ---------- */
+  --s-canvas: var(--p-cream-100);
+  --s-canvas-alt: var(--p-cream-200);
+  --s-surface: var(--p-cream-50);
+  --s-ink: var(--p-pine-900);
+  --s-ink-muted: var(--p-stone-700);
+  --s-brand: var(--p-pine-700);
+  --s-brand-strong: var(--p-pine-800);
+  --s-brand-soft: var(--p-pine-100);
+  --s-on-brand: var(--p-cream-50);
+  --s-line: var(--p-cream-300);
+  --s-line-strong: var(--p-pine-300);
+  --s-focus: var(--p-plum-700);
+  --s-accent: var(--p-plum-700);
+  --s-highlight: var(--p-mustard-300);
+  --s-tint-pine: var(--p-pine-100);
+  --s-tint-plum: var(--p-plum-100);
+  --s-tint-peach: var(--p-peach-100);
+  --s-tint-mustard: var(--p-mustard-100);
+  --s-decor-plum: var(--p-plum-300);
+  --s-decor-peach: var(--p-peach-300);
+  --s-decor-mustard: var(--p-mustard-300);
+  --s-decor-pine: var(--p-pine-300);
+  --s-overlay: rgb(42 54 39 / 0.55);
+
+  --s-radius-control: var(--p-radius-full);
+  --s-radius-card: var(--p-radius-lg);
+  --s-radius-feature: var(--p-radius-xl);
+  --s-shadow-rest: var(--p-shadow-sm);
+  --s-shadow-raised: var(--p-shadow-md);
+  --s-shadow-overlay: var(--p-shadow-lg);
+
+  /* ---------- 3. Component ---------- */
+  --c-button-bg: var(--s-brand);
+  --c-button-bg-hover: var(--s-brand-strong);
+  --c-button-fg: var(--s-on-brand);
+  --c-button-secondary-bg: transparent;
+  --c-button-secondary-bg-hover: var(--s-brand-soft);
+  --c-button-secondary-fg: var(--s-brand);
+  --c-button-secondary-border: var(--s-brand);
+  --c-button-inverse-bg: var(--s-surface);
+  --c-button-inverse-fg: var(--s-brand-strong);
+  --c-button-radius: var(--s-radius-control);
+
+  --c-header-bg: rgb(251 246 236 / 0.88);
+  --c-header-border: var(--s-line);
+
+  --c-card-bg: var(--s-surface);
+  --c-card-border: var(--s-line);
+  --c-card-radius: var(--s-radius-card);
+  --c-card-shadow: var(--s-shadow-rest);
+  --c-card-shadow-hover: var(--s-shadow-raised);
+
+  --c-badge-bg: var(--s-highlight);
+  --c-badge-fg: var(--s-ink);
+
+  --c-chip-bg: var(--s-surface);
+  --c-chip-fg: var(--s-ink);
+  --c-chip-border: var(--s-line-strong);
+  --c-chip-active-bg: var(--s-brand);
+  --c-chip-active-fg: var(--s-on-brand);
+
+  --c-modal-bg: var(--s-surface);
+  --c-modal-radius: var(--s-radius-feature);
+  --c-modal-shadow: var(--s-shadow-overlay);
+  --c-modal-backdrop: var(--s-overlay);
+
+  --c-band-bg: var(--s-brand);
+  --c-band-fg: var(--s-on-brand);
+
+  --c-footer-bg: var(--s-brand-strong);
+  --c-footer-fg: var(--s-on-brand);
+}
+
+/* Expose semantic tokens to Tailwind (bg-canvas, text-ink, border-line …). */
+@theme inline {
+  --color-canvas: var(--s-canvas);
+  --color-canvas-alt: var(--s-canvas-alt);
+  --color-surface: var(--s-surface);
+  --color-ink: var(--s-ink);
+  --color-ink-muted: var(--s-ink-muted);
+  --color-brand: var(--s-brand);
+  --color-brand-strong: var(--s-brand-strong);
+  --color-brand-soft: var(--s-brand-soft);
+  --color-on-brand: var(--s-on-brand);
+  --color-line: var(--s-line);
+  --color-line-strong: var(--s-line-strong);
+  --color-accent: var(--s-accent);
+  --color-highlight: var(--s-highlight);
+  --color-tint-pine: var(--s-tint-pine);
+  --color-tint-plum: var(--s-tint-plum);
+  --color-tint-peach: var(--s-tint-peach);
+  --color-tint-mustard: var(--s-tint-mustard);
+  --color-decor-plum: var(--s-decor-plum);
+  --color-decor-peach: var(--s-decor-peach);
+  --color-decor-mustard: var(--s-decor-mustard);
+  --color-decor-pine: var(--s-decor-pine);
+
+  --font-display: var(--p-font-display);
+  --font-body: var(--p-font-body);
+
+  --radius-control: var(--s-radius-control);
+  --radius-card: var(--s-radius-card);
+  --radius-feature: var(--s-radius-feature);
+
+  --shadow-rest: var(--s-shadow-rest);
+  --shadow-raised: var(--s-shadow-raised);
+  --shadow-overlay: var(--s-shadow-overlay);
+}

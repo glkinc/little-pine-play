@@ -1,0 +1,66 @@
+{
+  "name": "Little Pine Play",
+  "tagline": "Creating wonder and magic through play.",
+  "description": "Handmade, eco-friendly toys and craft kits from Pine Grove, Norfolk County. Play boxes, sensory kits and party favours made by hand for little imaginations.",
+  "url": "https://littlepineplay.com",
+  "email": "hello@littlepineplay.com",
+  "location": {
+    "display": "Pine Grove, Norfolk County, Ontario",
+    "locality": "Pine Grove",
+    "area": "Norfolk County",
+    "regionCode": "ON",
+    "countryCode": "CA"
+  },
+  "logo": "brand/logo-circle.webp",
+  "logoAlt": "Little Pine Play logo",
+  "footerLogo": "brand/logo-oval.webp",
+  "footerLogoAlt": "Little Pine Play: creating wonder and magic",
+  "nav": [
+    { "label": "What we make", "href": "#services" },
+    { "label": "Products", "href": "#products" },
+    { "label": "The Cubby", "href": "#cubby" },
+    { "label": "FAQ", "href": "#faq" }
+  ],
+  "seo": {
+    "title": "Little Pine Play | Handmade Eco-Friendly Toys & Craft Kits in Norfolk County",
+    "description": "Handmade, eco-friendly play boxes, sensory kits and party favour kits from Pine Grove, Norfolk County, Ontario. Contact us or visit the Little Pine Cubby.",
+    "ogImage": "products/mermaid-play-box.jpg",
+    "themeColor": "#43593b"
+  },
+  "social": [],
+  "contact": {
+    "buttonLabel": "Contact us",
+    "title": "Say hello",
+    "body": "We'd love to hear from you. Email us about a kit, a custom order, party favours or a bulk order and we'll get back to you soon.",
+    "emailButtonLabel": "Email us",
+    "subject": "Inquiry from littlepineplay.com",
+    "productSubject": "Inquiry about {product}",
+    "productNote": "You're asking about: {product}",
+    "copyLabel": "Copy email address",
+    "copiedLabel": "Email address copied",
+    "visitNote": "Prefer to shop in person? Visit the Little Pine Cubby in Pine Grove, Norfolk County."
+  },
+  "ui": {
+    "skipLink": "Skip to main content",
+    "homeLabel": "Little Pine Play home",
+    "mainNavLabel": "Main",
+    "footerNavLabel": "Footer",
+    "menuLabel": "Menu",
+    "closeLabel": "Close",
+    "filterLabel": "Filter products by type",
+    "filterAll": "All",
+    "resultCount": "Showing {count} of {total} products",
+    "viewDetails": "view details",
+    "productInquiry": "Ask about this kit",
+    "detailsHeading": "What's inside"
+  },
+  "footer": {
+    "blurb": "Handmade, eco-friendly toys and craft kits, made with love in Norfolk County.",
+    "copyright": "© {year} Little Pine Play. All rights reserved."
+  },
+  "notFound": {
+    "title": "This page wandered off",
+    "body": "We couldn't find that page. Head back home to see what we've been making.",
+    "linkLabel": "Back to home"
+  }
+}

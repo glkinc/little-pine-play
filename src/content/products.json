@@ -1,0 +1,81 @@
+[
+  {
+    "id": "construction-play-box",
+    "title": "Construction Site Play Box",
+    "category": "Play Boxes",
+    "price": "$28",
+    "badge": "Popular",
+    "summary": "A pocket-sized building site with two peg doll builders and a mini digger.",
+    "description": "Open the lid to a hand-painted construction site with a winding road and gravel piles. Two peg doll builders, wooden blocks, mini bricks and a digger are ready to get to work, and it all packs back into the box.",
+    "details": ["Ages 3+", "Hand-painted wooden box", "2 peg doll builders", "Wooden blocks, mini bricks and a toy digger"],
+    "image": "construction-play-box.jpg",
+    "imageAlt": "Open wooden play box painted with a road and blue sky, with two peg doll builders, wooden blocks, mini bricks and a yellow digger"
+  },
+  {
+    "id": "space-play-box",
+    "title": "Space Explorer Play Box",
+    "category": "Play Boxes",
+    "price": "$28",
+    "summary": "Blast off with an astronaut, a friendly alien and glow-in-the-dark moon rocks.",
+    "description": "A starry night sky painted inside the lid sets the scene for an astronaut and a friendly green alien. Includes a rocket, a flying saucer, moon rocks and glowing pebbles for adventures that are out of this world.",
+    "details": ["Ages 3+", "Hand-painted wooden box", "Astronaut and alien peg dolls", "Rocket, flying saucer, pebbles and blocks"],
+    "image": "space-play-box.jpg",
+    "imageAlt": "Open wooden play box painted with planets and stars, with astronaut and alien peg dolls, a toy rocket, a flying saucer and pebbles"
+  },
+  {
+    "id": "goldilocks-play-box",
+    "title": "Goldilocks & the Three Bears Play Box",
+    "category": "Play Boxes",
+    "price": "$30",
+    "summary": "Retell a favourite story with three bears, Goldilocks and three little beds.",
+    "description": "A storybook cottage in a box. Three hand-painted bears and Goldilocks come with three beds, three bowls and three chairs, perfect for retelling the tale and making up new endings.",
+    "details": ["Ages 3+", "Hand-painted wooden box", "3 bear peg dolls and Goldilocks", "Great for storytelling and early literacy"],
+    "image": "goldilocks-play-box.jpg",
+    "imageAlt": "Open wooden play box painted as a cottage bedroom with three beds, with three bear peg dolls and a Goldilocks peg doll"
+  },
+  {
+    "id": "mermaid-play-box",
+    "title": "Mermaid Cove Play Box",
+    "category": "Play Boxes",
+    "price": "$30",
+    "badge": "New",
+    "summary": "An under-the-sea world with two mermaids, real shells and a message in a bottle.",
+    "description": "Dive into a hand-painted ocean scene with a friendly purple octopus. Two mermaid peg dolls come with real shells, glass gems and a tiny message in a bottle for seaside stories.",
+    "details": ["Ages 3+", "Hand-painted wooden box", "2 mermaid peg dolls", "Real shells, glass gems and a message in a bottle"],
+    "image": "mermaid-play-box.jpg",
+    "imageAlt": "Two open wooden play boxes painted with an ocean scene and a purple octopus, with mermaid peg dolls, shells, glass gems and a tiny bottle"
+  },
+  {
+    "id": "construction-sensory-bag",
+    "title": "Construction Sensory Kit",
+    "category": "Sensory Kits",
+    "price": "$18",
+    "summary": "Scoop, dig and dump with a ready-to-play construction sensory mix.",
+    "description": "A grab-and-go sensory kit filled with silver and black sensory base, orange pasta, mini bricks, cones and construction vehicles. Pour it into a bin or tray and let the digging begin.",
+    "details": ["Ages 3+", "Dyed dry sensory base", "2 mini construction vehicles", "Mini bricks and cones", "Resealable kraft pouch"],
+    "image": "construction-sensory-bag.jpg",
+    "imageAlt": "Kraft pouch with a clear window showing a construction sensory mix and mini vehicles, sitting in sand between two toy trucks"
+  },
+  {
+    "id": "mermaid-sensory-mix",
+    "title": "Mermaid Lagoon Sensory Kit",
+    "category": "Sensory Kits",
+    "price": "$20",
+    "summary": "A shimmering ocean mix with two mermaids, shells and sea-creature pasta.",
+    "description": "Ocean-coloured chickpeas, rice and shell pasta in blues, teals, pinks and purples, with two mermaid peg dolls, real shells and sea-creature shapes hiding in the waves.",
+    "details": ["Ages 3+", "Dyed chickpeas, rice and pasta", "2 mermaid peg dolls", "Real shells and a glass gem"],
+    "image": "mermaid-sensory-mix.jpg",
+    "imageAlt": "Two mermaid peg dolls lying on a sensory mix of blue, teal and pink chickpeas, rice, shells and sea-creature pasta"
+  },
+  {
+    "id": "unicorn-sensory-bowl",
+    "title": "Unicorn Dreams Sensory Kit",
+    "category": "Sensory Kits",
+    "price": "$20",
+    "summary": "Pink and purple sensory play with a unicorn, a rainbow and sparkly treasures.",
+    "description": "A dreamy mix of lavender rice, pink and purple chickpeas and unicorn pasta, with a little unicorn, a rainbow and sparkly balloon animals to find, sort and scoop.",
+    "details": ["Ages 3+", "Dyed rice, chickpeas and pasta", "Unicorn and rainbow figures", "Sparkly balloon animal charms", "Tray not included"],
+    "image": "unicorn-sensory-bowl.jpg",
+    "imageAlt": "Pink bow-shaped tray filled with purple rice, pink and purple chickpeas, unicorn pasta, a small unicorn and a rainbow"
+  }
+]

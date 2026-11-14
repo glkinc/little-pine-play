@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "eyebrow": "Handmade in Pine Grove, Norfolk County",
+    "headline": "Creating wonder and magic through play.",
+    "subhead": "Little Pine Play makes eco-friendly toys and craft kits by hand: tiny painted worlds, sensory kits and party favours that invite little ones to imagine, build and explore.",
+    "primaryCta": { "label": "See our products", "href": "#products" },
+    "contactCta": "Contact us",
+    "image": "products/construction-play-box.jpg",
+    "imageAlt": "A hand-painted wooden construction play box with two peg doll builders, mini bricks, wooden blocks and a toy digger"
+  },
+  "values": [
+    { "icon": "hand", "title": "Handmade", "text": "Every piece is painted and packed by hand." },
+    { "icon": "leaf", "title": "Eco-friendly", "text": "Wood, natural materials and thoughtful packaging." },
+    { "icon": "pin", "title": "Local", "text": "Made in Pine Grove, Norfolk County." },
+    { "icon": "sparkles", "title": "Open-ended", "text": "Play that grows with your child's imagination." }
+  ],
+  "services": {
+    "eyebrow": "What we make",
+    "title": "Play for every little occasion",
+    "intro": "From a single play box to favours for the whole class, we make kits to order. Tell us what you have in mind.",
+    "items": [
+      {
+        "icon": "gift",
+        "title": "Party favour kits",
+        "text": "Skip the plastic loot bag. Themed mini kits that guests will actually play with, matched to your party."
+      },
+      {
+        "icon": "boxes",
+        "title": "Individual or bulk orders",
+        "text": "Order one special kit or a batch for classrooms, daycares, markets and events."
+      },
+      {
+        "icon": "blocks",
+        "title": "Early learning",
+        "text": "Sensory and small-world play that builds fine motor skills, language and storytelling."
+      },
+      {
+        "icon": "brush",
+        "title": "Custom & themed kits",
+        "text": "Have a favourite story, animal or colour? We'll paint peg dolls and scenes to match."
+      },
+      {
+        "icon": "jar",
+        "title": "Sensory kits & refills",
+        "text": "Coloured rice, chickpeas and pasta mixes with scoops and treasures for bins and trays."
+      },
+      {
+        "icon": "heart",
+        "title": "Gift sets",
+        "text": "Ready-to-give sets for birthdays, holidays and new big siblings, wrapped with care."
+      }
+    ],
+    "cta": "Ask about an order"
+  },
+  "products": {
+    "eyebrow": "Our products",
+    "title": "Little worlds, ready to explore",
+    "intro": "A few of our favourite kits. Everything is handmade in small batches, so each one is a little bit different.",
+    "note": "Prices are in Canadian dollars. To order, contact us or visit the Little Pine Cubby."
+  },
+  "cubby": {
+    "eyebrow": "Visit us",
+    "title": "The Little Pine Cubby",
+    "body": [
+      "The Little Pine Cubby is our roadside stand in Pine Grove, Norfolk County, stocked with sensory kits, play boxes and a little bit of magic.",
+      "Stop by to browse what's fresh, or contact us ahead of time and we'll set aside something special."
+    ],
+    "details": [
+      { "icon": "pin", "text": "Pine Grove, Norfolk County, Ontario" },
+      { "icon": "tree", "text": "Self-serve stand, stocked with seasonal kits" },
+      { "icon": "mail", "text": "Contact us for directions and current hours" }
+    ],
+    "cta": "Ask about visiting",
+    "image": "brand/cubby-poster.webp",
+    "imageAlt": "Illustrated sign for the Little Pine Cubby, a game stand for sensory play and magic"
+  },
+  "faq": {
+    "eyebrow": "Good to know",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How do I order from Little Pine Play?",
+        "answer": "Email us with the kit you'd like and we'll confirm availability, price and pickup or delivery. You can also buy in person at the Little Pine Cubby in Pine Grove, Norfolk County."
+      },
+      {
+        "question": "What are your toys and kits made from?",
+        "answer": "Our play boxes and peg dolls are made from wood and painted by hand. Sensory kits use dyed dry goods like rice, chickpeas and pasta, with natural materials such as shells and stones wherever we can."
+      },
+      {
+        "question": "What ages are the kits for?",
+        "answer": "Most kits are designed for ages 3 and up, with adult supervision. Many contain small parts and are not suitable for children under 3."
+      },
+      {
+        "question": "Do you make party favour kits and bulk orders?",
+        "answer": "Yes. We make themed party favour kits and take bulk orders for classrooms, daycares and events. Contact us with your date, theme and quantity."
+      },
+      {
+        "question": "Can I request a custom theme?",
+        "answer": "Absolutely. Tell us the story, character or colours you have in mind and we'll create a custom play box or sensory kit to match."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have something magical in mind?",
+    "body": "Tell us about your little one, your party or your classroom, and we'll help you pick or create the perfect kit.",
+    "button": "Contact us"
+  }
+}
