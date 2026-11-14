@@ -3,7 +3,7 @@
     "id": "construction-play-box",
     "title": "Construction Site Play Box",
     "category": "Little Pine Worlds",
-    "price": "$25",
+    "price": "$25 - $30",
     "badge": "Popular",
     "summary": "A pocket-sized building site with two peg doll builders and a mini digger.",
     "description": "Open the lid to a hand-painted construction site with a winding road and gravel piles. Two peg doll builders, wooden blocks, mini bricks and a digger are ready to get to work, and it all packs back into the box.",
@@ -12,7 +12,7 @@
       "Hand-painted wooden box",
       "2 peg doll builders",
       "Wooden blocks, mini bricks and a toy digger",
-      "Price is for a 2-character world. A 4-character world is $30"
+      "Two characters $25, four characters $30"
     ],
     "image": "construction-play-box.jpg",
     "imageAlt": "Open wooden play box painted with a road and blue sky, with two peg doll builders, wooden blocks, mini bricks and a yellow digger"
@@ -21,7 +21,7 @@
     "id": "space-play-box",
     "title": "Space Explorer Play Box",
     "category": "Little Pine Worlds",
-    "price": "$25",
+    "price": "$25 - $30",
     "summary": "Blast off with an astronaut, a friendly alien and glow-in-the-dark moon rocks.",
     "description": "A starry night sky painted inside the lid sets the scene for an astronaut and a friendly green alien. Includes a rocket, a flying saucer, moon rocks and glowing pebbles for adventures that are out of this world.",
     "details": [
@@ -29,7 +29,7 @@
       "Hand-painted wooden box",
       "Astronaut and alien peg dolls",
       "Rocket, flying saucer, pebbles and blocks",
-      "Price is for a 2-character world. A 4-character world is $30"
+      "Two characters $25, four characters $30"
     ],
     "image": "space-play-box.jpg",
     "imageAlt": "Open wooden play box painted with planets and stars, with astronaut and alien peg dolls, a toy rocket, a flying saucer and pebbles"
@@ -38,7 +38,7 @@
     "id": "goldilocks-play-box",
     "title": "Goldilocks & the Three Bears Play Box",
     "category": "Little Pine Worlds",
-    "price": "$30",
+    "price": "$25 - $30",
     "summary": "Retell a favourite story with three bears, Goldilocks and three little beds.",
     "description": "A storybook cottage in a box. Three hand-painted bears and Goldilocks come with three beds, three bowls and three chairs, perfect for retelling the tale and making up new endings.",
     "details": [
@@ -46,7 +46,7 @@
       "Hand-painted wooden box",
       "3 bear peg dolls and Goldilocks",
       "Great for storytelling and early literacy",
-      "4-character world. A 2-character world is $25"
+      "Two characters $25, four characters $30"
     ],
     "image": "goldilocks-play-box.jpg",
     "imageAlt": "Open wooden play box painted as a cottage bedroom with three beds, with three bear peg dolls and a Goldilocks peg doll"
@@ -55,7 +55,7 @@
     "id": "mermaid-play-box",
     "title": "Mermaid Cove Play Box",
     "category": "Little Pine Worlds",
-    "price": "$25",
+    "price": "$25 - $30",
     "badge": "New",
     "summary": "An under-the-sea world with two mermaids, real shells and a message in a bottle.",
     "description": "Dive into a hand-painted ocean scene with a friendly purple octopus. Two mermaid peg dolls come with real shells, glass gems and a tiny message in a bottle for seaside stories.",
@@ -64,7 +64,7 @@
       "Hand-painted wooden box",
       "2 mermaid peg dolls",
       "Real shells, glass gems and a message in a bottle",
-      "Price is for a 2-character world. A 4-character world is $30"
+      "Two characters $25, four characters $30"
     ],
     "image": "mermaid-play-box.jpg",
     "imageAlt": "Two open wooden play boxes painted with an ocean scene and a purple octopus, with mermaid peg dolls, shells, glass gems and a tiny bottle"
@@ -73,7 +73,7 @@
     "id": "construction-sensory-bag",
     "title": "Construction Sensory Bin Filler",
     "category": "Sensory Kits",
-    "price": "$25",
+    "price": "$25 - $30",
     "summary": "Scoop, dig and dump with a ready-to-play construction sensory mix.",
     "description": "A grab-and-go sensory kit filled with silver and black sensory base, orange pasta, mini bricks, cones and construction vehicles. Pour it into a bin or tray and let the digging begin.",
     "details": [
@@ -90,7 +90,7 @@
     "id": "mermaid-sensory-mix",
     "title": "Mermaid Lagoon Sensory Bin Filler",
     "category": "Sensory Kits",
-    "price": "$25",
+    "price": "$25 - $30",
     "summary": "A shimmering ocean mix with two mermaids, shells and sea-creature pasta.",
     "description": "Ocean-coloured chickpeas, rice and shell pasta in blues, teals, pinks and purples, with two mermaid peg dolls, real shells and sea-creature shapes hiding in the waves.",
     "details": [
@@ -107,7 +107,7 @@
     "id": "unicorn-sensory-bowl",
     "title": "Unicorn Dreams Sensory Bin Filler",
     "category": "Sensory Kits",
-    "price": "$25",
+    "price": "$25 - $30",
     "summary": "Pink and purple sensory play with a unicorn, a rainbow and sparkly treasures.",
     "description": "A dreamy mix of lavender rice, pink and purple chickpeas and unicorn pasta, with a little unicorn, a rainbow and sparkly balloon animals to find, sort and scoop.",
     "details": [
@@ -159,7 +159,7 @@
     "id": "custom-peg-people",
     "title": "Custom Peg People",
     "category": "Peg People",
-    "price": "$10 for two",
+    "price": "From $10",
     "summary": "Hand-painted peg dolls made to match your family, story or party.",
     "description": "Peg people painted to order. Tell us who they should be and we will make them. Pricing for custom orders is by message, starting at $10 for two characters.",
     "details": [
