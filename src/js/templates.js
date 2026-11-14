@@ -385,9 +385,11 @@ export function renderBody(ctx) {
   ${dialogs(ctx)}`;
 }
 
-const priceNumber = (price) => {
-  const match = String(price ?? '').replace(/,/g, '').match(/\d+(\.\d+)?/);
-  return match ? match[0] : null;
+// "$25 - $30" -> { low: '25', high: '30' }; "$7 each" -> { low: '7', high: '7' }.
+const priceRange = (price) => {
+  const nums = (String(price ?? '').replace(/,/g, '').match(/\d+(\.\d+)?/g) || []).map(Number);
+  if (!nums.length) return null;
+  return { low: String(Math.min(...nums)), high: String(Math.max(...nums)) };
 };
 
 export function structuredData({ site, home, products, img }) {
@@ -419,7 +421,7 @@ export function structuredData({ site, home, products, img }) {
       '@type': 'ItemList',
       name: home.products.title,
       itemListElement: products.map((p, i) => {
-        const price = priceNumber(p.price);
+        const price = priceRange(p.price);
         return {
           '@type': 'ListItem',
           position: i + 1,
@@ -430,8 +432,19 @@ export function structuredData({ site, home, products, img }) {
             category: p.category,
             image: abs(img.url(`products/${p.image}`)),
             brand: { '@type': 'Brand', name: site.name },
+            sku: p.id,
             ...(price
-              ? { offers: { '@type': 'Offer', price, priceCurrency: 'CAD', availability: 'https://schema.org/InStock', url: `${site.url}/#products`, seller: { '@id': business['@id'] } } }
+              ? {
+                  offers: {
+                    ...(price.low === price.high
+                      ? { '@type': 'Offer', price: price.low }
+                      : { '@type': 'AggregateOffer', lowPrice: price.low, highPrice: price.high }),
+                    priceCurrency: 'CAD',
+                    availability: 'https://schema.org/InStock',
+                    url: `${site.url}/#products`,
+                    seller: { '@id': business['@id'] },
+                  },
+                }
               : {}),
           },
         };
